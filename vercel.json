@@ -3,7 +3,7 @@
   "name": "e-shop-tutorial",
   "functions": {
     "api/server.js": {
-      "runtime": "@vercel/node@2.15.10"
+      "runtime": "@vercel/node"
     }
   },
   "routes": [
