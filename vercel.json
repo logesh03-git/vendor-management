@@ -2,11 +2,11 @@
   "version": 2,
   "name": "e-shop-tutorial",
   "functions": {
-    "server.js": {
+    "api/server.js": {
       "runtime": "@vercel/node@2.15.10"
     }
   },
   "routes": [
-    { "src": "/(.*)", "dest": "/server.js" }
+    { "src": "/(.*)", "dest": "/api/server.js" }
   ]
 }
